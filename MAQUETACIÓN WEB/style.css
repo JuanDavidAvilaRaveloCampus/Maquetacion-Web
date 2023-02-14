@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    outline: 0;
+    padding: 0% 30% 2% 25%;
+    background-color: beige;
+}
+
+.container-header {
+    background-color: aqua;
+}
+
+header {
+    background-color: aliceblue;
+}
+
+#header {
+    background-color: blueviolet;
+    font-size: 2rem;
+}
+
+#container-nav h2 {
+    font-size: 2rem;
+}
+
+.container-paragraphs p, .container-paragraphs p blockquote {
+    width: 26rem;
+}
+
+#img-chica-top-right img {
+    width: 26rem;
+    margin: 0 2rem;
+    border: 1px solid black;
+    display: block;
+    position: absolute;
+    right: 28%;
+    top: 34%;
+  }
+
+.img-horno img {
+    width: 432px;
+    position: relative;
+    bottom: 1.8rem;
+    z-index: -10;
+}
+
+.paragraph-footer {
+    width: 15rem;
+}
+
+#señor-pechuga div img {
+    display: block;
+    width: 15rem;
+    position: absolute;
+    bottom: 0%;
+    top: 10%;
+    left: 23%;
+    z-index: -10;
+}
+
+#article-footer {
+    display: block;
+    position: relative;
+    bottom: 3rem;
+}
+
+#divi {
+    display: block;
+    position: relative;
+    bottom: 0.3em;
+}
+
+#container-img {
+    display: block;
+    position: absolute;
+    top: 65%;
+    right: 32%;
+}
+
+#container-kids {
+    display: block;
+    position: absolute;
+    width: 22%;
+    right: 27%;
+    top: 71%;
+}
+
+#container-kids #article-kids #container-final-article img {
+    width: 23rem;
+}
+
+#article-kids div p {
+    font-size: .95rem;
+    width: 22rem;
+}
+
+footer img {
+    width: 130px;
+}
+
+#img-left-footer {
+    display: block;
+    position: absolute;
+    left: 25%;
+    z-index: -10;
+    top: 141%;
+}
+
+#img-rigth-footer {
+    display: block;
+    position: absolute;
+    right: 30%;
+    top: 141%;
+}
+
+footer h2 {
+    position: absolute;
+    right: 0;
+    left: 40%;
+}
