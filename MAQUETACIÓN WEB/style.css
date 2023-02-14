@@ -2,20 +2,30 @@ body {
     margin: 0;
     outline: 0;
     padding: 0% 30% 2% 25%;
-    background-color: beige;
+    font-family: 'Playfair Display SC', serif;
+
 }
 
 .container-header {
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 header {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 
 #header {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+#header h1 {
+    font-family: 'UnifrakturMaguntia', cursive;
+    display: block;
+    position: relative;
+    left: 20%;
 }
 
 #container-nav h2 {
@@ -39,12 +49,13 @@ header {
 .img-horno img {
     width: 432px;
     position: relative;
-    bottom: 1.8rem;
+    bottom: 1.2rem;
     z-index: -10;
 }
 
 .paragraph-footer {
-    width: 15rem;
+    width: 14rem;
+    font-size: .85rem;
 }
 
 #señor-pechuga div img {
@@ -60,7 +71,7 @@ header {
 #article-footer {
     display: block;
     position: relative;
-    bottom: 3rem;
+    bottom: 2rem;
 }
 
 #divi {
@@ -100,20 +111,29 @@ footer img {
 #img-left-footer {
     display: block;
     position: absolute;
-    left: 25%;
-    z-index: -10;
-    top: 141%;
+    left: 27%;
+    top: 142.5%;
 }
 
 #img-rigth-footer {
     display: block;
     position: absolute;
-    right: 30%;
-    top: 141%;
+    right: 32%;
+    top: 142.5%;
 }
 
 footer h2 {
     position: absolute;
-    right: 0;
     left: 40%;
+    bottom: -50%;
+}
+
+#hr {
+    display: block;
+    position: absolute;
+    bottom: -43.83%;
+    width: 45%;
+    z-index: -10;
+
+
 }
