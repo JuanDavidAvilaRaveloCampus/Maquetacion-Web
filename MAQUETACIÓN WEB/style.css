@@ -51,9 +51,10 @@ header {
     position: relative;
     bottom: 1.2rem;
     z-index: -10;
-}
+}   
 
-.paragraph-footer {
+
+.paragraph-footer { 
     width: 14rem;
     font-size: .85rem;
 }
