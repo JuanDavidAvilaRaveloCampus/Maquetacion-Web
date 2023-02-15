@@ -2,38 +2,37 @@ body {
     margin: 0;
     outline: 0;
     padding: 0% 30% 2% 25%;
-    font-family: 'Playfair Display SC', serif;
-
-}
-
-.container-header {
-    /* background-color: aqua; */
-}
-
-header {
-    /* background-color: aliceblue; */
 }
 
 #header {
-    /* background-color: blueviolet; */
     font-size: 2rem;
     margin: 0;
-    padding: 0;
+    box-sizing: border-box;
+    height: 106px;position: relative;
+    top: -10px;
 }
+
 
 #header h1 {
     font-family: 'UnifrakturMaguntia', cursive;
     display: block;
     position: relative;
     left: 20%;
+    top: -35px;
+}
+
+#hr3 {
+    position: relative;
+    top: -50px;
 }
 
 #container-nav h2 {
     font-size: 2rem;
 }
 
-.container-paragraphs p, .container-paragraphs p blockquote {
-    width: 26rem;
+.container-paragraphs p, .container-paragraphs{
+    width: 23rem;
+    font-size: .9rem;
 }
 
 #img-chica-top-right img {
@@ -42,12 +41,13 @@ header {
     border: 1px solid black;
     display: block;
     position: absolute;
-    right: 28%;
-    top: 34%;
+    right: 32%;
+    top: 25%;
   }
 
 .img-horno img {
-    width: 432px;
+    width: 400px;
+    height: 250px;
     position: relative;
     bottom: 1.2rem;
     z-index: -10;
@@ -55,17 +55,17 @@ header {
 
 
 .paragraph-footer { 
-    width: 14rem;
-    font-size: .85rem;
+    width: 15rem;
+    font-size: .885rem;
 }
 
 #señor-pechuga div img {
     display: block;
-    width: 15rem;
+    width: 13rem;
     position: absolute;
     bottom: 0%;
-    top: 10%;
-    left: 23%;
+    top: 8%;
+    left: 22%;
     z-index: -10;
 }
 
@@ -78,22 +78,23 @@ header {
 #divi {
     display: block;
     position: relative;
-    bottom: 0.3em;
 }
 
 #container-img {
     display: block;
     position: absolute;
-    top: 65%;
-    right: 32%;
+    top: 56%;
+    right: 34%;
 }
 
 #container-kids {
     display: block;
     position: absolute;
-    width: 22%;
-    right: 27%;
-    top: 71%;
+    width: 24.4%;
+    right: 29%;
+    top: 62%;
+    border-left: 1px solid black;
+    padding-left: 1rem;
 }
 
 #container-kids #article-kids #container-final-article img {
@@ -101,8 +102,8 @@ header {
 }
 
 #article-kids div p {
-    font-size: .95rem;
-    width: 22rem;
+    font-size: .92rem;
+    width: 23.4rem;
 }
 
 footer img {
@@ -113,28 +114,34 @@ footer img {
     display: block;
     position: absolute;
     left: 27%;
-    top: 142.5%;
+    top: 115.5%;
 }
 
 #img-rigth-footer {
     display: block;
     position: absolute;
     right: 32%;
-    top: 142.5%;
+    top: 115.5%;
 }
 
 footer h2 {
     position: absolute;
     left: 40%;
-    bottom: -50%;
+    bottom: -23%;
 }
 
-#hr {
+#linea {
+    position: absolute;
+    border: 1px solid;
+    width: 53.5rem;
+    bottom: -18.6%;
+    z-index: -10;
+}
+
+#hr-footer {
     display: block;
     position: absolute;
-    bottom: -43.83%;
+    bottom: -22.83%;
     width: 45%;
     z-index: -10;
-
-
 }
