@@ -1,0 +1,229 @@
+@import url('https://fonts.cdnfonts.com/css/old-london');
+
+body {
+    margin: 0;
+    outline: 0;
+    padding: 0 25%;
+    background: url(./img/background/background.jpg) no-repeat;
+    background-size: 70rem 91rem;
+    background-position: 50%;
+}
+
+#header {
+    margin-top: 3rem;
+    box-sizing: border-box;
+    height: 106px;position: relative;
+    top: -10px;
+    text-align: center;
+    width: auto;
+}
+
+.container-header {
+    position: relative;
+}
+
+
+#header h1 {
+    font-family: 'Old London', sans-serif;
+    /* font-family: 'UnifrakturMaguntia', cursive; */
+    font-size: 8rem;
+    display: block;
+    position: relative;
+    top: -100px;
+    border-bottom: 3px solid;
+    padding: 10px 1rem;
+}
+
+hr {
+    border: 2px solid black ;
+}
+
+#container-nav h2 {
+    font-size: 3.6rem;
+    font-family: 'Old London', sans-serif;
+    position: absolute;
+    top: 115%;
+    margin: 0;
+    padding: 0 20px;
+    /* left: 15%; */
+}
+
+#container-nav nav hr {
+    position: relative;
+    top: .9rem;
+}
+
+#hr3 {
+    position: relative;
+    top: -103%;
+    border: 1.8px solid black;
+}
+
+big {
+    margin-left: 35px ;
+    top: 30%;
+    font-size: 1.05rem;
+}
+
+.container-paragraphs p{
+    position: relative;
+    top: 30%;
+    /* width: 20rem; */
+    font-size: 1.08rem;
+    text-align: justify;
+}
+
+#otro-parrafo {
+    margin-top: 10px;
+    width: 23%;
+    position: absolute;
+    top: 25%;
+}
+
+#img-chica-top-right img {
+    width: 30.3rem;
+    height: 22rem;
+    margin: 10px 2rem;
+    border: 1px solid black;
+    display: block;
+    position: absolute;
+    right: 23.3%;
+    top: 27%;
+  }
+
+.img-horno img {
+    width: 26%;
+    height: 250px;
+    position: absolute;
+    top: 77%;
+    bottom: 1.2rem;
+    z-index: -10;
+}   
+
+#article-footer .container-information-relative h3 {
+    font-family: 'Old London', sans-serif;
+    font-size: 2.55rem;
+    margin: 0;
+}
+
+#article-footer #señor-pechuga .paragraph-footer p {
+    font-family: 'UnifrakturMaguntia', sans-serif;
+    font-size: 1.1rem;
+    line-height: 28px;
+    width: 100%;
+    text-align: justify;
+}
+
+#big-2 {
+    font-size: 1.2rem;
+}
+
+#container-intormaction-botton  #article-footer{
+    display: inline-block;
+    position: absolute;
+    top: 104%;
+}
+
+#señor-pechuga {
+    position: relative;
+}
+
+#señor-pechuga div img {
+    position: absolute;
+    padding-top: 0;
+    bottom: -5%;
+    left: 53.5%;
+    width: 240px;
+    height: 250px;
+    z-index: -30;
+}
+
+#container-kids {
+    padding-top: 0;
+    padding-left: 5px;
+    position: relative;
+    margin-top: 33.5rem;
+    width: 44%;
+    right: -52.7%;
+    text-align: justify;
+    border-left: 2px solid black;
+}
+
+#article-chica #subtitle h3 {
+    font-family: 'Old London', sans-serif;
+    font-size: 2.8rem;
+    position: absolute;
+    left: -5%;
+    top: -11%;
+    width: 130%;
+    text-align: left;
+    margin: 0;
+    z-index: 10;
+}
+
+#container-final-article img {
+    width: 430px;
+    text-align: right;
+    padding: 5rem 0 0 1rem;
+    position: absolute;
+    top: -15%;
+}
+
+#article-kids {
+    padding-top: 12.1rem;
+}
+
+#article-kids div p {
+    font-size: 1.07rem;
+    margin: 3px;
+    padding-left: 1rem;
+    padding-bottom: .3rem;
+    width: 100%;
+    height: 100%;
+
+}
+
+footer {
+    text-align: end;
+    padding: 4rem;
+}
+
+footer #text-footer h2 {
+    font-size: 3rem;
+    position: absolute;
+    right: 36%;
+    bottom: -48%;
+    z-index: 10;
+}
+
+footer #img-left-footer img {
+    position: absolute;
+    right: 66%;
+    width: 150px;
+    bottom: -45.5%;
+}
+
+footer #img-rigth-footer img {
+    position: absolute;
+    left: 66%;
+    width: 150px;
+    bottom: -45.5%;
+}
+
+div #hr-footer {
+    position: absolute;
+    bottom: -37.5%;
+    width: 50%;
+    text-align: center;
+}
+
+div #linea {
+    position: absolute;
+    bottom: -46%;
+    width: 50%;
+    text-align: center;
+}
+
+hr {
+    z-index: -20;
+}
